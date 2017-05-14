@@ -391,23 +391,23 @@ ul {
       background-color: #313131;
       height: 100%; }
     .resume__education .resume__skills .resume__html {
-      width: 76%; }
+      width: 85%; }
     .resume__education .resume__skills .resume__css {
-      width: 76%; }
+      width: 80%; }
     .resume__education .resume__skills .resume__js {
-      width: 68%; }
+      width: 70%; }
     .resume__education .resume__skills .resume__jq {
-      width: 60%; }
+      width: 65%; }
     .resume__education .resume__skills .resume__php {
-      width: 34%; }
+      width: 35%; }
     .resume__education .resume__skills .resume__mysql {
-      width: 48%; }
+      width: 45%; }
     .resume__education .resume__skills .resume__en {
       width: 55%; }
     .resume__education .resume__skills .resume__bootstrap {
-      width: 50%; }
-    .resume__education .resume__skills .resume__rwd {
       width: 70%; }
+    .resume__education .resume__skills .resume__rwd {
+      width: 75%; }
     .resume__education .resume__skills .resume__git {
       width: 53%; }
 
@@ -438,6 +438,7 @@ h3 span {
         width: 40%;
         height: 40%; } }
     .some_work li p {
+      position: relative;
       visibility: hidden;
       opacity: 0;
       position: absolute;
@@ -451,6 +452,12 @@ h3 span {
     .some_work li:hover > p {
       visibility: visible;
       opacity: 1; }
+    .some_work li a {
+      display: block;
+      position: absolute;
+      bottom: 5px;
+      left: 50%;
+      transform: translateX(-50%); }
   .some_work img {
     width: 100%;
     height: 100%; }
