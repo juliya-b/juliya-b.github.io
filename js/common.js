@@ -108,11 +108,14 @@ $(document).ready( function() {
     }, 200);
   });
 
-  $(".some_work").on("click", "li", function() {
+  $(".some_work").on("click", "li", function(e) {
   	var src = $(this).attr("data-src");
   	$("#modal_wind img").attr("src", src);
   });
 
+  $(".link-site").on("click", function(e){
+  	e.stopPropagation();
+  });
 /*---------------------------------------------------------------------
   Check the input fields of the form
 -----------------------------------------------------------------------*/	
